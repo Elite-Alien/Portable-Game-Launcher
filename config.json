@@ -1,0 +1,41 @@
+{
+    "game_name": "Game",
+    "options": [
+        {
+            "name": "Play Game",
+            "path": "game/mygame.exe",
+            "launch_options": [
+                "-EpicPortal"
+            ],
+            "use_wine": 0
+        },
+        {
+            "name": "Play Windows Game",
+            "path": "mygame.exe",
+            "launch_options": [
+                "-EpicPortal"
+            ],
+            "use_wine": 0
+        },
+        {
+            "name": "Play Linux Game",
+            "path": "mygame.x86_64",
+            "launch_options": [
+                ""
+            ]
+        },
+        {
+            "name": "Play macOS Game",
+            "path": "mygame.app",
+            "launch_options": []
+        }
+    ],
+    "umu_commands": {
+        "GAMEID": "1234",
+        "PROTONPATH": "GE-Proton10-28",
+        "pre_launch": [
+            "GAMEID=1234",
+            "PROTONPATH=GE-Proton10-28"
+        ]
+    }
+}
